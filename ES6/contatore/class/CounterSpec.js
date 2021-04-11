@@ -57,7 +57,6 @@ contatore.increment() // 10
 console.log("08a - parametri passati come stringhe limite max e min increment",contatore.value == 10,"actual ",contatore.value)
 contatore.increment() // 10
 console.log("08b - parametri passati come stringhe limite max e min increment",contatore.value == 10,"actual ",contatore.value)
-
 contatore.decrement() // 9
 console.log("08c - parametri passati come stringhe limite max e min decrement",contatore.value == 9,"actual ",contatore.value)
 
