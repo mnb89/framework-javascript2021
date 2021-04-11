@@ -9,7 +9,7 @@ class Counter {
        if(this.max !=null && this.value>this.max){
            this.value=this.max
            throw new Error('initial è maggiore di max')
-       }else if(minimo !=null && this.value<this.min){
+       }else if(this.min !=null && this.value<this.min){
            this.value=this.min
            throw new Error('initial è minore di min') 
        }
